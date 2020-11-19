@@ -10,4 +10,6 @@ B]Implement a modified  Hardware and firmware to support an ST7789 based 240 x 2
 C]Implement and release a series of Firmware versions to support "TSynthDHmod1"
 
 Details
-
+2020-11-19 first version "CF" uploaded, based on TSynth release 2.02 .verified on TSynth board version 1.2 for Teensy4.1 with Pimoroni PM476 1.3inch 240 x240 Display 
+Note the Pimoroni display does not use the Reset signal. This release has also been verified with an Ada fruit 240 x240 display ST7789.The files altered where:-
+ST7735_t3.cpp ,ST7735_t3.h and ST7735Display. The Oscilloscope trace was relocated to a clear display space.The VU meter was relocated in the display next to the Oscilloscope. The VU meter was given a thicker 3 colour (red,yellow green) representation. 
