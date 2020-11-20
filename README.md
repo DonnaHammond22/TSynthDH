@@ -16,7 +16,7 @@ ST7735_t3.cpp ,ST7735_t3.h and ST7735Display. The Oscilloscope trace was relocat
 
 2020-11-20 CG version uploaded,as CF but code tidied up with Display development supported as a generic set of ST77XX files with options selection of Display type screen size resolution using code variable
  ST77XXDisplayType as :-
-1  Default ST7735 130 x80 as ElectroTechnique Build standard 
+1  Default ST7735 160 x80 as ElectroTechnique Build standard 
 2  ST7789 240 x 240 Display PIMORONI PM476 1.3inch as DH TSynth DHmod1 build
 3  ST7789 240 x 240 Display ADA fruit 1.4inc display 
 4  ST7789 240 x 320 Display ADA fruit module  ,portrait mode
