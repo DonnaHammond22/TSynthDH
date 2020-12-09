@@ -22,3 +22,7 @@ ST7735_t3.cpp ,ST7735_t3.h and ST7735Display. The Oscilloscope trace was relocat
 4  ST7789 240 x 320 Display ADA fruit module  ,portrait mode
 Also included new setting EFXSelEnable place holder no functionality yet ,but will follow
 
+2020-11-09  DK version uploaded , based on TSynth release 2.03 added new Arbitrary waveforms for OSC A and OSC B based on 256 point values pof a single cycle
+Folder includes example spreadsheet on how to create and import your own waveform files . Process was to take publically avaible downloadable  waveforms ,eg 
+https://www.adventurekid.se/akrt/waveforms/adventure-kid-waveforms/individual-folder-downloads-of-the-akwf-pack/
+which are single cycles expressed as 600 point WAV format files, and process them in firstly Audacity to export as a readable data set , and secondly to re-map the data as a 256 integer value array scaled to range +/-4000.The new waveform data array was added to constants.h file, and the newwaveform implentation was supported by making changes to TSynth.ino file .TIP use you code text editor [I use Notepad++] serch for Parabolic, to find the places in the code where you need to add your new waveform.
